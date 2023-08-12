@@ -25,11 +25,7 @@
 -- ● valence: A measure of the musical positiveness of the song
 
 
--- SQL
-
-
 SELECT * FROM `ColdPlay-Data`.coldplay_data LIMIT 1000;
-
 
 -- -- Query 1: List all columns for the first 10 rows.
 SELECT
@@ -61,7 +57,6 @@ FROM `ColdPlay-Data`.coldplay_data
 WHERE explicit = true;
 
 
--- -- Hard Queries --
 -- -- Query 6: Rank the songs based on popularity in descending order.
 SELECT
 name,
@@ -289,6 +284,7 @@ WHERE lower(album_name) LIKE '%live%'
 )
 GROUP BY album_name
 ORDER BY avg_liveness DESC;
+
 -- -- Query 22: Rank the albums based on the total number of explicit songs they contain.
 SELECT
 album_name,
