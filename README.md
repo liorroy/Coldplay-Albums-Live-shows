@@ -47,3 +47,5 @@ Time Signature: An estimated time signature. The time signature (meter) is a not
 ● time_signature: The time signature of the song
 
 ● Valence: A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+
+Reference: [https://developer.spotify.com/documentation/web-api/reference/get-audio-features](url)
